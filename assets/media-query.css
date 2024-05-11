@@ -1,0 +1,13 @@
+@media screen and (max-width: 600px) {
+    #menu-icon {
+        display: block;
+        color: white;
+        font-size: 30px;
+        padding: 10px;
+        cursor: pointer;
+    }
+    
+    .itens li {
+        display: none;
+    }
+}
