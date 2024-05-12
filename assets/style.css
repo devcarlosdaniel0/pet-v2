@@ -37,4 +37,5 @@ a {
 
 #menu-icon {
     display: none;
+    cursor: pointer;
 }
