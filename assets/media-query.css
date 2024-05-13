@@ -1,32 +1,35 @@
 @media screen and (max-width: 600px) {
-    #menu-icon {
+    #btn-mobile {
         display: block;
         color: white;
         font-size: 30px;
         padding: 10px;
+        cursor: pointer;
     }
     
-    .itens {
-        display: none;
-        flex-direction: column;
-        background-color: #333;
-        text-align: center;
+    #menu {
+        display: block;
         position: absolute;
-        top: 90px;
-        left: 0px;
         width: 100%;
+        top: 80px;
+        right: 0px;
+        background-color: black;
+        transition: .4s;
+        z-index: 1000;
+        height: 0px;
+        visibility: hidden;
+        overflow-y: hidden;
     }
 
-    .itens a:hover {
-        background-color: gray;
+    #nav.active #menu {
+        height: calc(100vh - 80px);
+        visibility: visible;
+        overflow-y: auto;
     }
 
-    .itens.active {
-        display: flex;
-    }
-
-    .itens li {
-        margin-left: 0;
-        margin-bottom: 10px;
+    #menu a {
+        padding: 1rem 0;
+        margin: 0 1rem;
+        border-bottom: 2px solid gray;
     }
 }
