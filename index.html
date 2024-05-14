@@ -12,10 +12,10 @@
     <header id="header">
         <a id="logo" href="#">Logo</a>
         <nav id="nav">
-            <button id="btn-mobile" onclick="toggleMenu()">Menu
+            <button aria-label="Abrir Menu" id="btn-mobile" onclick="toggleMenu()" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
                 <span id="hamburger"></span>
             </button>
-            <ul id="menu">
+            <ul id="menu" role="menu">
                 <li><a href="#">Adotar</a></li>
                 <li><a href="#">Contato</a></li>
                 <li><a href="#">Doações</a></li>
