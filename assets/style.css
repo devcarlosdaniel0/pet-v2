@@ -5,6 +5,8 @@ body, ul {
     padding: 0px;
 }
 
+/* Configurações para o header de um site*/
+
 #header {
     background-color: black;
     box-sizing: border-box;
@@ -46,3 +48,5 @@ body, ul {
 #btn-mobile {
     display: none;
 }
+
+/* Configurações para o header de um site*/

@@ -17,4 +17,3 @@ function toggleMenu() {
 
 menuBtn.addEventListener('click', toggleMenu);
 menuBtn.addEventListener('touchstart', toggleMenu);
-

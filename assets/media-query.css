@@ -1,3 +1,5 @@
+/* Configurações para o header de um site*/
+
 @media screen and (max-width: 600px) {
     #btn-mobile {
         color: white;
@@ -66,3 +68,5 @@
         border-bottom: 2px solid gray;
     }
 }
+
+/* Configurações para o header de um site*/
